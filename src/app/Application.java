@@ -6,7 +6,8 @@ public class Application {
 
         public static void main(String[] args) {
 
-                // Affichage de quelques nombres entiers de manière alignée à droite sur 5 positions
+                // Affichage de quelques nombres entiers de manière alignée à droite sur 5
+                // positions
                 System.out.println("------------------------");
                 System.out.println(MesFormateurs.formaterNbreEntierA(1));
                 System.out.println(MesFormateurs.formaterNbreEntierA(22));
@@ -23,10 +24,11 @@ public class Application {
                 System.out.println(MesFormateurs.formaterNbreEntierB(17));
                 System.out.println(MesFormateurs.formaterNbreEntierB(12345678));
 
-                // Affichage de quelques nombres réels de manière lisible et compréhensible par un humain
+                // Affichage de quelques nombres réels de manière lisible et compréhensible par
+                // un humain
                 System.out.println("------------------------");
                 System.out.println("PI = " + MesFormateurs.formaterNbreReel(Math.PI));
                 System.out.println("C = " + MesFormateurs.formaterNbreReel(299792458.0) + " [m/s]");
-                
+
         }
 }
